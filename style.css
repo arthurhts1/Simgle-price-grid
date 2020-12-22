@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243, 243, 243);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans';
+    border-radius: 10px;
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 100vh;
+    flex-direction: column;
+    margin: 0;
+}
+
+.box1{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 15rem;
+    background-color: white;
+    padding: 1.3rem;
+    margin: 0;
+    border-radius: 10px 10px 0 0;
+    min-height: 15rem;
+}
+
+.h2{
+    color: rgb(69, 159, 159);
+    font-size: 24px;
+    padding: 1rem 0 0.5rem 1rem;
+}
+
+.h3{
+    color: rgb(202, 221, 107);
+    font-size: 20px;
+    padding: 1rem 0 0.3rem 1rem;
+}
+
+.texto{
+    color: 	rgb(200, 205, 210);
+    padding: 0.3rem 0 1rem 1rem;
+}
+
+.group{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 0;
+}
+
+.box2{
+    display: block;
+    background-color:rgb(43, 179, 177);
+    padding: 1.3rem;
+    margin: 0;
+    width: 50%;
+    justify-content: space-evenly;
+    flex-direction: column;
+    float: left;
+    border-radius: 0 0 0 10px;
+    color: white;
+    height: 200px;
+}
+
+.price-p-month{
+    display: flex;
+    justify-content: left;
+    align-items: baseline;
+    padding: 1rem;
+ }
+
+ .monthly{
+     padding: 0.5rem;
+ }
+
+.price-p-month{
+    padding: 0.5rem;
+}
+
+.price{
+    font-size: 24px;
+}
+
+.per-month{
+    padding-left: 10px;
+    font-size: 12px;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-up-button{
+    background-color: rgb(191, 223, 50);
+    color: white;
+    border-radius: 4px;
+    padding: 8px 70px 8px 70px;
+}
+
+.full{
+    padding: 0 0 18px 8px;
+    width: 100%;
+    font-size: 16px;
+}
+
+.box3{
+    display: block;
+    background-color: rgb(74, 190, 189);
+    padding: 1.3rem;
+    margin: 0;
+    width: 50%;
+    float: right;
+    border-radius: 0 0 10px 0;
+    color: white;
+    text-decoration: none;
+    height: 200px;
+}
+
+.whyus{
+    padding-bottom: 1rem;
+    text-decoration: none;
+}
+
+.lista{
+    font-size: 12px;
+    line-height: 18px;
+}
+
+
+@media (max-width: 600px) {
+
+  
+    .wrapper {
+        width: 90%;
+    }
+
+    .box1 {
+        width: 90%;
+    }
+
+    .box2{
+        font-size: 2.2vw;
+        width: 90%;
+        border-radius: 0;
+    }
+
+    .box3{
+        width: 90%;
+        border-radius: 0 0 4px 4px;
+    }
+
+    .group{
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        font-size: 2vw;
+    }
+
+ }
